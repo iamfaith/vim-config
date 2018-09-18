@@ -2,6 +2,13 @@
 set nocompatible
 set splitbelow
 set splitright
+
+" Enable folding
+set foldmethod=indent
+set foldlevel=99
+" Enable folding with the spacebar
+nnoremap <space> za
+
 filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
