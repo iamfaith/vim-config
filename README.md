@@ -11,7 +11,11 @@ $ vim --version | grep python
 +cscope          +lispindent      -python3         +wildignore
 You may need to remove other packages such as vim-gnome, vim-gtk, vim-nox ... to avoid conflicts.
 
-install requests first
+## install requests first
+
+## install cmake
+I ran into the same issue with Vundle and fixed it like this:
+After installing cmake, I cd'd into ~.vim/bundle/YouCompleteMe and ran  python install.py
 
 For python3:-  sudo python3 -m pip uninstall pip && sudo apt install python3-pip --reinstall.
 
