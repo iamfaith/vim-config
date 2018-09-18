@@ -13,7 +13,7 @@ You may need to remove other packages such as vim-gnome, vim-gtk, vim-nox ... to
 
 ## install requests first
 
-## install cmake
+## install cmake(apt-get update)
 I ran into the same issue with Vundle and fixed it like this:
 After installing cmake, I cd'd into ~.vim/bundle/YouCompleteMe and ran  python install.py
 
