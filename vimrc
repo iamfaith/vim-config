@@ -1,5 +1,7 @@
 "vundle
 set nocompatible
+set splitbelow
+set splitright
 filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
