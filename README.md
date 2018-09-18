@@ -1,4 +1,6 @@
 # vim-config
+## https://realpython.com/vim-and-python-a-match-made-in-heaven/
+
 my vim config to share amongst my machines
 
 In Ubuntu/Lubuntu 16.04, I have success with installing vim-gnome-py2
