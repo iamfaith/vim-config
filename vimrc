@@ -14,6 +14,8 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+
 Plugin 'VundleVim/Vundle.vim'
 "git interface
 Plugin 'tpope/vim-fugitive'
