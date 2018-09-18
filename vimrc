@@ -10,6 +10,7 @@ set foldlevel=99
 nnoremap <space> za
 
 autocmd FileType python nnoremap <buffer> <F10> :exec '!python' shellescape(@%, 1)<cr>
+autocmd FileType python nnoremap <buffer> <F9> :exec '!python3' shellescape(@%, 1)<cr>
 
 filetype off
 
