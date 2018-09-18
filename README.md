@@ -17,6 +17,9 @@ You may need to remove other packages such as vim-gnome, vim-gtk, vim-nox ... to
 I ran into the same issue with Vundle and fixed it like this:
 After installing cmake, I cd'd into ~.vim/bundle/YouCompleteMe and ran  python install.py
 
+if install fail, please refer to https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04
+
+
 For python3:-  sudo python3 -m pip uninstall pip && sudo apt install python3-pip --reinstall.
 
 By this , you can simply install packages using pip3. to check use pip3 --version.
