@@ -63,7 +63,7 @@ set noswapfile
 set nu
 
 "python with virtualenv support
-python3 << EOF
+python << EOF
 import os.path
 import sys
 import vim
