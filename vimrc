@@ -12,6 +12,12 @@ nnoremap <space> za
 autocmd FileType python nnoremap <buffer> <F10> :exec '!python' shellescape(@%, 1)<cr>
 autocmd FileType python nnoremap <buffer> <F9> :exec '!python3' shellescape(@%, 1)<cr>
 
+" execute a command and show it's output in a split window
+command! -nargs=* -complete=shellcmd Rs execute "new | r! <args>"
+
+" execute a command and show it's output in a new tab
+command! -nargs=* -complete=shellcmd Rt execute "tabnew | r! <args>"
+
 "split navigations
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
